@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>Online Form </title>
+<style>
+body{
+background-color:rgb(197, 204, 170)
+}
+#search{
+padding:12px;
+background-image:url('i16.png');
+background-position: 10px 10px;
+background-repeat: no-repeat;
+background-size:25px;
+padding-left:40px;
+}
+label {
+font-weight:bold;
+  font-style:italic;
+  text-transform:uppercase;
+  padding:120px 120px 120px ;
+  display: inline-block;
+  }
+  input[type=text], select, textarea, input[type=email],input[type=password] {
+  margin:10px 10px 10px 10px; 
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  transition: width 0.10s ease-in-out;
+  }
+input[type=submit],input[type=reset] {
+  background-color: #04aa15;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #a07545;
+}
+input[type=reset]:hover{
+background-color:#a07545;
+}
+input[type=email]{
+margin-left:40px;
+}
+input[type=text]:focus,input[type=email]:focus,input[type=password]:focus{
+background-color:rgb(230, 173, 229);
+width:80%;
+}
+
+</style>
+</head>
+
+<body>
+<div>
+<input type="text" id="search" placeholder="Search"/>
+
+<form>
+<fieldset> 
+<legend>Self Form</legend>
+<table>
+<tr>
+<td>
+Name:
+</td>
+<td>
+<input type="Text" placeholder="Enter your Name" >
+</td>
+</tr>
+<tr>
+<td>
+    Mobile Number:  
+</td>
+<td>
+<input type="Phone" placeholder="Enter your Mobile Number">
+</td>
+</tr>
+<tr>
+<td>Email-Id:
+</td><td>
+<input type="email" placeholder="Enter Your E-Mail ID">
+</td>
+</tr>
+<tr>
+<td>Enter Your Password:</td>
+<td><input type="password" placeholder="Enter Your Password"><!-- password for hide input text-->
+</td>
+</tr>
+<tr>
+<td>Slect Your Gender:</td>
+<td><input type="radio" name="gender">Male<!-- radio i for circle point slect-->
+<input type="radio" name="gender">Female
+</td>
+</tr>
+<tr>
+    <td>Date OF Birth:</td>
+    <td><input type="Date"></td>
+    </tr><!-- date use yo show clander -->
+    <tr>
+    <td>Hobbiess:</td>
+    <td><input type="checkbox"Reading Novel>Reading Novel
+    <input type="checkbox"Singingl>Singing
+    <input type="checkbox"Sleeping>Sleeping</td></tr>
+    <tr>
+    <td>Education Qualification:</td>
+    <td><select><!-- slect tag while giving a number of things-->
+    <option> Select Option</option>
+    <option>Not Stuided</option>
+    <option> Matrix Passed</option><!-- option makes it option list-->
+    <option> Graduated</option>
+    <option> Post Graduated</option>
+    </select></td></tr>
+    <tr><td>Address:</td>
+    <td><textarea rows="10" col="10" placeholder="Enter Your Address"></textarea></td>
+    </tr>
+    <tr><td><input type="submit" Value="Click Here to Submit">
+    <input type="Reset" Value="Click Here to Reset"></td></tr>
+</fieldset>
+</form>
+</div>
+</body>
+
+</html>
+    
+    
+    
+        
+    
+        
+        
+        
+        
